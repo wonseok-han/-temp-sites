@@ -1,0 +1,15 @@
+{
+  "name": "temp-sites",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "devDependencies": {
+    "turbo": "^2.0.0"
+  },
+  "scripts": {
+    "build": "turbo run build"
+  },
+  "packageManager": "npm@10.0.0"
+}
